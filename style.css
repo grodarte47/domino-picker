@@ -1,0 +1,39 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+    background-color:cornflowerblue;
+
+}
+body > h1 {
+    color:blanchedalmond;
+    border: 5px solid blanchedalmond;
+    border-radius: 2rem;
+    padding:2rem;
+    font-size: 36px;
+
+}
+    
+
+.domino-list > li {
+    list-style-type: none;
+    font-size: 5rem;
+}
+
+.domino-list > li:hover { 
+    font:6rem
+}
+.domino-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border:5px solid blanchedalmond;
+    border-radius: 2rem;
+    margin: 15px;
+}
+
+.selected {
+    color:whitesmoke;
+    filter: drop-shadow( 0 0 0.5rem white);
+}
